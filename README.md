@@ -4,7 +4,7 @@ A simple calculator built using HTML, CSS, and JavaScript. This project demonstr
 
 ## Demo
 
-You can view the live demo [here](https://github.com/FarshidRA/Calculator).
+You can view the live demo [here](https://farshidra.github.io/Calculator/).
 
 ## Features
 
