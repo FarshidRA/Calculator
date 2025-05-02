@@ -1,0 +1,26 @@
+function append(char) {
+	  document.getElementById('display').value += char;
+	  const click = document.getElementById('click-sound');
+	  click.currentTime = 0;  // 
+	  click.play();
+	}
+
+	// 
+	function calculate() {
+	  try {
+		document.getElementById('display').value = eval(document.getElementById('display').value);
+	  } catch {
+		document.getElementById('display').value = 'ERROR';
+	  }
+	  const click = document.getElementById('click-sound');
+	  click.currentTime = 0;
+	  click.play();  // 
+	}
+
+	//
+	function clearDisplay() {
+	  document.getElementById('display').value = '';
+	  const click = document.getElementById('click-sound');
+	  click.currentTime = 0;
+	  click.play();  // 
+	}
