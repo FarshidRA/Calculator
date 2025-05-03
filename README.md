@@ -1,4 +1,4 @@
-# Calculator Web App
+# 🧮Calculator Web App
 
 A simple calculator built using HTML, CSS, and JavaScript. This project demonstrates how to design a basic calculator using web technologies.
 
